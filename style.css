@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*nav*/
+.navbar{
+    transition: all .3s ease-out;
+}
+.navbar.scrolled{
+    background-color: #E0752F !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin: 10px;
+    color: #fff !important;
+
+
+}
+/*carousel*/
+.carousel-caption{
+
+  margin-top: 20rem;
+  font-family:  'Roboto' sans-serif;
+}
+.carousel-caption button{
+    display: flex;
+    position: relative;
+
+}
+
+.carousel-caption{
+    position: absolute;
+    top: -40px;
+}
+.carousel-control-next ,.carousel-control-prev{
+    display: none;
+
+}
+.carousel-indicators{
+    justify-content: flex-start;
+    bottom: 130px;
+}
+.carousel-indicators button{
+    width: 9px !important;
+    border-radius: 50%;
+    height: 9px !important;
+}
+.carousel-indicators button.active{
+    background-color: #E0752F;
+}
+
+
+/*card*/
+.card{
+    margin: 10px;
+    top: -50px;
+    border-bottom: solid #E0752F 10px;
+}
+.card img{
+    width: 4rem;
+
+}
+
+/*section2*/
+.sec2{
+    margin: 10rem;
+}
+.izquierdo.border{
+    position: relative;
+}
+.izquierdo.border::before{
+    content: " ";
+    display: block;
+    background-color: #E0752F;
+    width: 30px;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+
+}
+
+/*seccion3*/
+.img-responsive{
+margin:3rem;
+padding: 3rem;
+}
+
+.align-items-end {
+margin-bottom: 6rem;
+}
+.carousel-item h3{
+    margin: 2rem;
+}
+.carousel-item img{
+    margin-bottom: 1rem;
+
+}
+.carousel-inner .car2{
+    padding: 1rem;
+    margin: 1rem;
+  
+
+}
+.botones{
+    display: block;
+    position: absolute;
+    width: 30px;
+    bottom: 30px;
+    right: 30px;
+
+}
+/*seccion5*/
+.text{
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+.imeg{
+    width: 70%;
+    margin: 3rem;
+
+
+}
+footer{
+    padding: 1em;
+
+}
+.imgg{
+    margin: 3rem;
+
+}
+button{
+    padding: 8px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border:none;
+}
+.form h2{
+padding: 1rem;
+margin: 1rem;
+margin-top: 1rem;
+}
+.form form{
+    padding: 1rem;
+    margin: 1rem;
+}
+/*seccion4*/
+.accordion{
+    margin-left: 10rem;
+}
